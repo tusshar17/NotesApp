@@ -1,0 +1,18 @@
+.Header {
+  height: 8vh;
+  min-width: 100%;
+  background-color: rgb(113, 119, 118);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0 0 10px 10px;
+}
+
+.Header h1 {
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-left: 1%;
+  letter-spacing: 1px;
+}
