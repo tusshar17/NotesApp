@@ -1,0 +1,118 @@
+.note-card {
+  width: 22%;
+  height: 40vh;
+  border-radius: 15px;
+  margin: 5px;
+  background-color: rgb(95, 204, 204);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  position: relative;
+}
+
+.note-card h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+#btns {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 31px;
+  width: 31px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.btn:active {
+  transform: translateY(2px);
+}
+
+.btn-icon {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #ffffff;
+}
+
+.btn-a {
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.btn-a:hover {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#menu {
+  position: relative;
+  z-index: 1;
+}
+
+#edit {
+  opacity: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s ease-out;
+}
+
+#star {
+  opacity: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s ease-out;
+}
+
+#delete {
+  opacity: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s ease-out;
+}
+
+.note-card p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+  padding: 10px;
+  margin-right: 45px;
+  word-wrap: break-word;
+}
+
+.note-card h2 {
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 10px;
+  position: absolute;
+  top: 34vh;
+}
